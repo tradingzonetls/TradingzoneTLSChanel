@@ -1,0 +1,19 @@
+div button a{
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+img.img-center{
+    height: 40vh;
+}
