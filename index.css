@@ -1,19 +1,39 @@
-div button a{
-    text-decoration: none;
-    color: black;
-}
-
 body {
     font-family: Arial, sans-serif;
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-  }
+}
+div button a {
+    text-decoration: none;
+    color: black;
+}
+div button a:hover {
+    color: black;
+}
 
-img.img-center{
+img.img-center {
     height: 40vh;
+}
+
+button.telegram{
+    background-color: #229ED9;
+}
+
+button.youtube{
+    background-color: #eb0000;
+}
+button.zalo{
+    background-color: #0068FF;
+}
+button.tiktok{
+     background: radial-gradient(circle, 
+        rgb(255, 0, 80), 
+        rgb(0, 242, 234), 
+        rgb(0, 0, 0)
+    );
 }
